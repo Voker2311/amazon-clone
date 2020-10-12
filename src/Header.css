@@ -1,0 +1,74 @@
+.header{
+    background-color: #131921;
+    display:flex;
+    align-items:center;
+    position: sticky;
+    top:0;
+}
+
+.header__logo{
+    width:100px;
+    object-fit: contain;
+    margin:0 20px;
+    margin-top:16px;
+    cursor: pointer;
+}
+
+.header__searchIcon{
+    background-color:#cd9042;
+}
+.header__searchInput{
+    height:12px;
+    padding:10px;
+    border:none;
+    outline-width: 0;
+    font-size:15px;
+    width:100%;
+
+}
+.header__searchIcon{
+    padding:5px;
+    height:22px !important;
+}
+
+.header__search{
+    display:flex;
+    flex:1;
+}
+
+.header__nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header__link{
+    color:white;
+    text-decoration:none;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.header__option{
+    display:flex;
+    flex-direction: column;
+    margin-left:11px;
+    margin-right:11px;
+}
+
+.header__optionLineOne{
+    font-size:11px;
+}
+
+.header__optionLineTwo{
+    font-size:14px;
+    font-weight: 700;
+}
+
+.header__optionBasket{
+    display:flex;
+    align-items: center;
+}
+
+.header__basketCount{
+    margin-left:10px;
+    margin-right:10px;
+}
