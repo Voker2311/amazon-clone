@@ -11,8 +11,9 @@ const firebaseApp = firebase.initializeApp({
     measurementId: "G-6CPDXPGPDF"
 });
 
-const db = firebaseApp.firestore();
 
 const auth = firebase.auth();
+
+const db = firebaseApp.firestore();
 
 export { db,auth };
