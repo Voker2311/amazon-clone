@@ -11,6 +11,13 @@
     z-index:1;
     margin:10px;
     padding:20px;
+    transition: .2s all ease-in;
+    cursor:pointer;
+}
+
+.product:hover{
+    transform:scale(1.04);
+    box-shadow:0px 8px 16px -9px rgba(0,0,0,0.75);
 }
 
 .product__price{
@@ -41,4 +48,5 @@
     font-family:'Ubuntu',sans-serif;
     font-weight:550;
     border-radius: 3px;
+    cursor:pointer;
 }
