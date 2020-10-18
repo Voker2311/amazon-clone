@@ -5,7 +5,6 @@ const stripe = require('stripe')('sk_test_51HconeFLwtRxl1xBxrAMMkUE86Bkst23QbLDO
 
 //API 
 
-
 //App config
 const app = express();
 
@@ -20,14 +19,27 @@ app.get("/",(req,res) => {
     res.status(200).send('Hello world');
 })
 
+app.post("/payments/create", async (req,res) => {
+    const total = req.query.total;
+    console.log("Payment received >>>>> ",total);
 
-//Listen Command
+    const paymentIntent = await stripe.paymentIntents.create({
+        amount:total,
+        currency:"inr"
+    })
+
+    //Created
+    res.status(201).send({
+        clientSecret:paymentIntent.client_secret,
+    });
+})
+
+
+//Example endpoint
+//http://localhost:5001/clone-36cd5/us-central1/api
+
+
 exports.api = functions.https.onRequest(app);
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+
+//Listen Command

@@ -15,7 +15,7 @@ function Home() {
                 title="Xbox One X Cyberpunk 2077 Limited Edition Bundle (1TB) PEGI Rating: Ages 18 and Over"
                 image="https://images-na.ssl-images-amazon.com/images/I/71RW-dl0szL._SL1500_.jpg"
                 rating={3}
-                price={40999}
+                price={45000}
             />
 
             <Product 
@@ -23,7 +23,7 @@ function Home() {
                 title="(10th Gen Core i3-10110U/4GB/512GB SSD/Window 10 + MS Office/Nvidia 2GB MX230 Graphics)"
                 image="https://images-na.ssl-images-amazon.com/images/I/61Qhi1Y2yzL._SL1280_.jpg"
                 rating={4}
-                price={40999}
+                price={32000}
             />  
         </div>
 
@@ -33,14 +33,14 @@ function Home() {
                 title="Apple iPhone 11 (128GB) - White - FREE Delivery by Amazon"
                 image="https://images-na.ssl-images-amazon.com/images/I/51o5RmQtroL._SL1024_.jpg"
                 rating={3}
-                price={40999}
+                price={98000}
                 />
             <Product 
                 id="4"
                 title="ASUS VivoBook Dual Core Athlon Compact & Light Laptop"
                 image="https://images-na.ssl-images-amazon.com/images/I/81Bq3kCc6AL._SL1500_.jpg"
                 rating={4}
-                price={40999}
+                price={42999}
             />
             <Product 
                 id="5"
@@ -56,7 +56,7 @@ function Home() {
                 title="Samsung C34H890WJN - 34 Inch (3440 x 1440) WQHD UltraWide Professional LED Curved Monitor"
                 image="https://images-na.ssl-images-amazon.com/images/I/91pi34PiUPL._SL1500_.jpg"
                 rating={5}
-                price={40999}
+                price={120000}
             />
         </div>
         
