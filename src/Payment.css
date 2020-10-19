@@ -39,3 +39,18 @@
     flex:0.8;
     
 }
+
+.payment__button{
+    padding:4px;
+    width:100px;
+    background-color: #f0c14b ;
+    border-radius:3px;
+    margin-top:7px;
+    font-size:14px;
+
+}
+
+.payment__order{
+    padding:10px 0;
+    margin-top:10px;
+}

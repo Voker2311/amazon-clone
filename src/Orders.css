@@ -1,0 +1,8 @@
+.orders{
+    padding:20px 80px;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.orders > h2{
+    margin:30px;
+}
